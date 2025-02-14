@@ -1,0 +1,44 @@
+.inputContainer {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+.input{
+    width: 100%;
+    background: #effaff;
+    border: 1px solid #6bb4d5;
+    font-size: 1.1em;
+    padding: 10px 10px 3px 10px;
+    appearance: none;
+    border-radius: 3px;
+    position: relative;
+}
+input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+    
+}
+.input:checked {
+    background-color: #7ee170;
+    border-color: #6bb4d5;
+
+}
+
+.input:checked::after {
+    content: "✔";
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.label{
+    margin-inline: 1px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-block: auto;
+}

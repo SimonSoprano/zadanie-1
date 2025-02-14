@@ -1,0 +1,37 @@
+.navbar {
+    background: #282c34;
+    height: 100vh;
+    transition: width ease 0.3s;
+    overflow: hidden;
+}
+.open{
+    width: 200px;
+}
+.close{
+    width: 40px;
+}
+.menu_button {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    padding: 0px;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    display: block;
+}
+.nav_item{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    justify-content: left;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+}
+.nav_item_text{
+    display: flex;
+    margin-block: auto;
+    margin-left: 10px;
+}

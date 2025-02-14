@@ -1,0 +1,9 @@
+.form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.name{
+    font-size:1.2rem;
+}

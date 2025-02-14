@@ -1,0 +1,26 @@
+
+.wrapper{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+.select{
+    width: 100%;
+    background: #effaff;
+    border: 1px solid #6bb4d5;
+    font-size: 1.1em;
+    padding: 10px 10px 3px 10px;
+    margin: 1px;
+    appearance: none;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.option{
+
+}
+.option_default{
+
+}
