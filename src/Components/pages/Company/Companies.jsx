@@ -13,8 +13,8 @@ const tableName = "companies";
 
 const Companies = () => {
     /*
-        Clasa
-        słuzaca - reprezentacji strony z firmami z mozliwosca dodania firm
+        Komponent
+        słuzący - do reprezentacji strony z firmami z mozliwością dodania firm
         wykorzystywana - w router jako endpoint z /companies
      */
     const [companies, setCompanies] = useState([]);
