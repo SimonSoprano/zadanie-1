@@ -8,8 +8,8 @@ import LocalStorageService from "../../../services/LocalStorageService";
 
 const CompanyForm = ({tableName,onRefresh}) => {
     /*
-      Clasa
-      słuzaca - do manipulacji z danymi modelu'Company' oraz interakcji z uzytkownikiem
+      Komponent
+      słuzący - do manipulacji z danymi modelu'Company' oraz interakcji z uzytkownikiem
       wykorzystywana - w warstwie Strony
    */
     const [formMessage, setFormMessage] = useState('');
